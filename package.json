@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "dotenvx run -f .env.development -- next dev",
-    "build": "dotenvx run -f .env.production -- next build",
+    "build": "dotenvx run -- next build",
     "start": "dotenvx run -f .env.production -- next start",
     "test": "dotenvx run -f .env.test -- npm run test",
     "lint": "next lint",
